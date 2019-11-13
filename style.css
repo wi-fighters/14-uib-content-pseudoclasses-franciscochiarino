@@ -1,0 +1,47 @@
+button {
+    display: block;
+    margin: 1em;
+    background-color: blue;
+    padding: 1em;
+    border: none;
+}
+
+button:first-child {
+    background-color: red;
+}
+
+button:last-child {
+    background-color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+button a {
+    color: white;
+}
+
+button:visited {
+    background-color: violet;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+button:active {
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: violet;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    background-color: yellow;
+}
